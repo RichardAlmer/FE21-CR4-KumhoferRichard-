@@ -1,0 +1,126 @@
+/* Stylesheet for Main, Cars and Dropdown in index.html */
+
+/* Main */
+
+#main {
+    background-image: url(../img/background.jpg);
+    background-repeat: repeat-y;
+    background-size: contain;    
+}
+#mainContent{
+    display: flex;
+    justify-content: space-around;
+}
+
+#mainHead {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 20rem 1fr 20rem;
+    grid-template-areas: ". mainH sort";
+    align-items: center;
+}
+
+#mainH {
+    grid-area: mainH;
+    justify-self: center;
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    padding: 5rem 0 3rem 0;
+    text-shadow: 10px 10px 5px #000000;
+}
+
+/* Dropdown */
+
+.dropbtn {
+    justify-self: flex-start;
+    background-color: #9b9b9b00;
+    color: white;
+    padding: 3px;
+    font-size: 2rem;
+    border: none;
+    text-shadow: 5px 5px 5px #000000;
+  }
+  
+.dropdown {
+    grid-area: sort;
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ff9b9b;
+    min-width: 5rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content button {
+    color: black;
+    background-color: #d16969;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    border: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+  
+
+/* Cards */
+
+.cardContainer {
+    width: 40rem;
+    background-color: rgba(255, 255, 255, 0.632);
+    padding: 0;
+    margin: 2rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #181818;
+}
+
+.mainImg {
+    height: 20rem;
+}
+
+.mybody {
+    display: grid;
+    grid-template-rows: 4rem 11rem 3rem;
+    grid-template-columns: 1fr 3rem;
+    grid-template-areas: "title title" "des des" "like counter";
+}
+
+.mytitle {
+    grid-area: title;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.mydes {
+    grid-area: des;
+    font-size: 1.1rem;
+}
+
+.mybtn {
+    grid-area: like;
+    justify-self: self-end;
+    align-self: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 1.5rem;
+    box-shadow: none !important; 
+}
+
+.myC {
+    grid-area: counter;
+    font-size: 2rem;
+    font-weight: bold;
+    justify-self: center;
+    align-self: center;
+    background-color: #ffbb00;
+    padding: 0.1rem 1rem;
+    border: 2px solid #ffbb00;
+    border-radius: 50%;
+}

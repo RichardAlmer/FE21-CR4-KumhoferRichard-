@@ -1,0 +1,63 @@
+/* Stylesheet for Heaader, Footer and Navbar*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+/* Header and Footer */
+
+#header, #footer {
+    background-color:#181818;
+    text-align:center;
+    color: white;
+}
+
+#header {
+    display: grid;
+    grid-template-rows: 20rem 5rem;
+    grid-template-columns: 20vw 1fr 20vw;
+    grid-template-areas: "logo1 h1 logo2" "nav nav nav";
+    justify-items: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+#hHeader {
+    grid-area: h1;
+    font-size: 5rem;
+}
+
+#logo1 {
+    grid-area: logo1;
+}
+
+#logo2 {
+    grid-area: logo2;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+}
+
+/* Navbar */
+
+nav {
+    grid-area: nav;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    display: inline;
+    font-size: 2rem;
+}
