@@ -59,5 +59,15 @@ ul {
 
 li {
     display: inline;
+}
+
+li a {
     font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    color: rgb(165, 26, 26);
 }
