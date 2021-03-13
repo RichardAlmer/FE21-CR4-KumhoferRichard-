@@ -1,0 +1,54 @@
+/* Stylesheet for Info and Trailer in index.html */
+
+/* Info */
+
+#infos {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 600px 1fr;
+    grid-template-areas: "trailer infos";
+}
+
+.movieInfo {
+    grid-area: infos;
+    background-image: url(../img/background.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    border-left: 10px solid #181818;
+}
+
+.movieInfo p {
+    font-size: 1.2rem;
+    color: white;
+    padding: 0 5rem;
+}
+
+#infoTitle {
+    padding-top: 3rem;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#infoDes {
+    text-align: center;
+}
+
+hr {
+    border: 3px solid white;
+    color: white;
+    margin: 3rem 5rem;
+}
+
+/* Trailer */
+
+.movieTrailer {
+    grid-area: trailer;
+}
+
+iframe {
+    z-index: 1;
+    position: absolute;
+    left: 79px;
+    top: 318px;
+}

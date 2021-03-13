@@ -9,7 +9,8 @@ let movies = `
         "director": "Kevin Macdonald",
         "actors": "Channing Tatum, Jamie Bell, Donald Sutherland ",
         "length": "1h 54min",
-        "releaseDate": " 11 February 2011 (USA)"
+        "releaseDate": "11 February 2011 (USA)",
+        "trailer":"https://www.youtube.com/embed/3TLYO2I5kgw"
     }, {
         "movieName": "Django Unchained",
         "img": "../img/DjangoUnchained.jpg",
@@ -19,7 +20,8 @@ let movies = `
         "director": "Quentin Tarantino",
         "actors": "Jamie Foxx, Christoph Waltz, Leonardo DiCaprio ",
         "length": "2h 45min",
-        "releaseDate": "18 January 2013 (Austria)"
+        "releaseDate": "18 January 2013 (Austria)",
+        "trailer":"https://www.youtube.com/embed/_iH0UBYDI4g"
     }, {
         "movieName": "Gladiator",
         "img": "../img/Gladiator.jpg",
@@ -29,7 +31,8 @@ let movies = `
         "director": "Ridley Scott",
         "actors": "Russell Crowe, Joaquin Phoenix, Connie Nielsen",
         "length": "2h 35min",
-        "releaseDate": "5 May 2000 (USA)"
+        "releaseDate": "5 May 2000 (USA)",
+        "trailer":"https://www.youtube.com/embed/AxQajgTyLcM"
     }, {
         "movieName": "Gone Girl",
         "img": "../img/GoneGirl.jpg",
@@ -39,7 +42,8 @@ let movies = `
         "director": "David Fincher",
         "actors": "Ben Affleck, Rosamund Pike, Neil Patrick Harris",
         "length": "2h 29min",
-        "releaseDate": "3 October 2014 (Austria)"
+        "releaseDate": "3 October 2014 (Austria)",
+        "trailer":"https://www.youtube.com/embed/2-_-1nJf8Vg"
     }, {
         "movieName": "A Time to Kill",
         "img": "../img/Jury.jpg",
@@ -49,7 +53,8 @@ let movies = `
         "director": "Joel Schumacher",
         "actors": "Matthew McConaughey, Sandra Bullock, Samuel L. Jackson",
         "length": "2h 29min",
-        "releaseDate": "24 July 1996 (USA)"
+        "releaseDate": "24 July 1996 (USA)",
+        "trailer":"https://www.youtube.com/embed/Ks3DFafPSRY"
     }, {
         "movieName": "The Client",
         "img": "../img/Klient.jpg",
@@ -59,7 +64,8 @@ let movies = `
         "director": "Joel Schumacher",
         "actors": "Susan Sarandon, Tommy Lee Jones, Brad Renfro",
         "length": "1h 59min",
-        "releaseDate": "20 July 1994 (USA)"
+        "releaseDate": "20 July 1994 (USA)",
+        "trailer":"https://www.youtube.com/embed/A6Ru1zDsws0"
     }, {
         "movieName": "Once upon a time in the West",
         "img": "../img/LiedVomTod.jpg",
@@ -69,7 +75,8 @@ let movies = `
         "director": "Sergio Leone",
         "actors": "Henry Fonda, Charles Bronson, Claudia Cardinale",
         "length": "2h 45min",
-        "releaseDate": "29 August 1969 (Austria)"
+        "releaseDate": "29 August 1969 (Austria)",
+        "trailer":"https://www.youtube.com/embed/c8CJ6L0I6W8"
     }, {
         "movieName": "Pulp Fiction",
         "img": "../img/PulpFiction.jpg",
@@ -79,7 +86,8 @@ let movies = `
         "director": "Quentin Tarantino",
         "actors": "John Travolta, Uma Thurman, Samuel L. Jackson",
         "length": "2h 34min",
-        "releaseDate": "14 October 1994 (USA)"
+        "releaseDate": "14 October 1994 (USA)",
+        "trailer":"https://www.youtube.com/embed/s7EdQ4FqbhY"
     }, {
         "movieName": "Reservoir Dogs",
         "img": "../img/ReservoirDogs.jpg",
@@ -89,7 +97,8 @@ let movies = `
         "director": "Quentin Tarantino",
         "actors": "Harvey Keitel, Tim Roth, Michael Madsen",
         "length": "1h 39min",
-        "releaseDate": "2 September 1992 (France)"
+        "releaseDate": "2 September 1992 (France)",
+        "trailer":"https://www.youtube.com/embed/vayksn4Y93A"
     }, {
         "movieName": "3:10 to Yuma",
         "img": "../img/Todeszug.jpg",
@@ -99,7 +108,8 @@ let movies = `
         "director": "James Mangold",
         "actors": "Russell Crowe, Christian Bale, Ben Foster",
         "length": "2h 2min",
-        "releaseDate": "7 September 2007 (USA)"
+        "releaseDate": "7 September 2007 (USA)",
+        "trailer":"https://www.youtube.com/embed/fSVzB18nczs"
     }
 
 

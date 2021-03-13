@@ -87,8 +87,8 @@
 .mybody {
     display: grid;
     grid-template-rows: 4rem 11rem 3rem;
-    grid-template-columns: 1fr 3rem;
-    grid-template-areas: "title title" "des des" "like counter";
+    grid-template-columns: 1fr 1fr 3rem;
+    grid-template-areas: "title title title" "des des des" "info like counter";
 }
 
 .mytitle {
@@ -110,6 +110,18 @@
     font-weight: bold;
     color: black;
     padding-bottom: 1.5rem;
+    box-shadow: none !important; 
+}
+
+.mybtn2 {
+    grid-area: info;
+    justify-self: self-start;
+    align-self: center;
+    font-size: 1.2rem;
+    color: black;
+    background-color: #ffbb00;
+    border: 1px solid #ffbb00;
+    border-radius: 5px;
     box-shadow: none !important; 
 }
 
