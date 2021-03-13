@@ -10,8 +10,8 @@ function cardCreater(moviesJ) {
 
     for (let i = 0; i < moviesJ.length; i++) {
         movie += `       
-            <div id="card" + ${[i]} class="row cardContainer">
-                <div class="col-5">
+            <div id="card" + ${[i]} class="myCard row cardContainer">
+                <div class="imgCont col-5">
                     <img class="mainImg" src="${moviesJ[i].img}" alt="${moviesJ[i].movieName}">
                 </div>
                 <div class="col-7">
